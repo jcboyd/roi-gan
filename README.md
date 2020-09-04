@@ -2,9 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vayOHR71rL1OOizqo7G2SvGrCaoyvT6t)
 
-![Generation over canvas](http://jcboyd.github.io/assets/roi-gan/canvas.gif)
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+![Generation over canvas](http://jcboyd.github.io/assets/roi-gan/canvas2.gif)
 
 An RoI discriminator for image-to-image GANs,
 
@@ -20,13 +18,7 @@ for feature <img src="https://render.githubusercontent.com/render/math?math=f"> 
 
 for input <img src="https://render.githubusercontent.com/render/math?math=\mathbf{x} \in \mathbb{R}^{1\times W \times H \times C},"> <img src="https://render.githubusercontent.com/render/math?math=k"> bounding box tuples <img src="https://render.githubusercontent.com/render/math?math=b">, and output <img src="https://render.githubusercontent.com/render/math?math=\mathbf{y} \in \mathbb{R}^{k \times w \times h \times C}"> with quantised dimensions <img src="https://render.githubusercontent.com/render/math?math=w < W"> and <img src="https://render.githubusercontent.com/render/math?math=h < H">.
 
-<!-- \begin{figure}
-\centering
-  \includestandalone[width=0.5\textwidth]{tikz/roigan}%     without .tex extension
-  % or use \input{mytikz}
-%  \caption{Fluorescence labeler, based on U-Net architecture \cite{ronneberger2015u}.}
-  \label{fig:hca_pipeline}
-\end{figure} -->
+![RoI GAN](http://jcboyd.github.io/assets/roi-gan/roi-gan.png)
 
 Akin to the PatchGAN, the discriminator output averages over the individual bounding boxes,
 
